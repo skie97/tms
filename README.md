@@ -292,7 +292,8 @@ Tools to incorporate (WIP):
 - [ ] Use strongly typed parameterized queries.
 - [ ] Utilize input validation and output encoding and be sure to address meta characters. If these fail, do not run the database command.
 - [ ] Ensure that variables are strongly typed.
-- [ ] The application should use the lowest possible level of privilege when accessing the database Use secure credentials for database access.
+- [ ] The application should use the lowest possible level of privilege when accessing the database.
+- [ ] Use secure credentials for database access.
 - [ ] Connection strings should not be hard coded within the application. Connection strings should be stored in a separate configuration file on a trusted system and they should be encrypted.
 - [ ] Use stored procedures to abstract data access and allow for the removal of permissions to the base tables in the database.
 - [ ] Close the connection as soon as possible.
@@ -356,6 +357,13 @@ Tools to incorporate (WIP):
 
 </details>
 
+### React Bad Practices
+Avoid the following:
+
+- Creating React components from user-supplied objects;
+- Rendering links with user-supplied href attributes, or other HTML tags with injectable attributes (link tag, HMTL5 imports)
+- Explicitly setting the dangerouslySetInnerHTML prop of an element
+- Passing user-supplied strings to eval()
 
 ### OWASP Web Security Testing Guide Checklist
 The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
