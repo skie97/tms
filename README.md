@@ -61,6 +61,8 @@ Tools to incorporate (WIP):
 <details>
 <summary>1. Input Validation</summary>
 
+Check out this [cheatsheet by OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html) for implementation details.
+
 - [ ] Conduct all data validation on a trusted system (e.g. the server).
 - [ ] Identify all data sources and classify them into trusted and untrusted. Validate all data from untrusted sources (e.g. Databases, file streams).
 - [ ] There should be a centralized input validation routine for the application.
