@@ -33,7 +33,7 @@ erDiagram
     string ColumnC "Column C"
     float ColumnD "Column D"
   }
-  TABLE2 {
+  TABLE3 {
     int Id PK "Default SharePoint autonumber PK"
     string Title "Default SharePoint title"
     string ColumnI "Column I"
@@ -58,203 +58,201 @@ Tools to incorporate (WIP):
 ### OWASP Web Security Testing Guide Checklist
 The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
-#### Information Gathering
-
 <details>
-<summary>Click to expand</summary>
+<summary><h4>1. Information Gathering<h4></summary>
 
-1. [ ] [Conduct Search Engine Discovery Reconnaissance for Information Leakage](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/01-Conduct_Search_Engine_Discovery_Reconnaissance_for_Information_Leakage.md)
-2. [ ] [Fingerprint Web Server](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/02-Fingerprint_Web_Server.md)
-3. [ ] [https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/03-Review_Webserver_Metafiles_for_Information_Leakage.md]
-4. [ ] [Enumerate Applications on Webserver](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/04-Enumerate_Applications_on_Webserver.md)
-5. [ ] [Review Webpage Content for Information Leakage](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage.md)
-6. [ ] [Identify application entry points](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/06-Identify_Application_Entry_Points.md)
-7. [ ] [Map execution paths through application](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/07-Map_Execution_Paths_Through_Application.md)
-8. [ ] [Fingerprint Web Application Framework](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework.md)
-9. [X] ~~Fingerprint Web Application~~
-10. [ ] [Map Application Architecture](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/10-Map_Application_Architecture.md)
+- [ ] [Conduct Search Engine Discovery Reconnaissance for Information Leakage](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/01-Conduct_Search_Engine_Discovery_Reconnaissance_for_Information_Leakage.md)
+- [ ] [Fingerprint Web Server](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/02-Fingerprint_Web_Server.md)
+- [ ] [Review Webserver Metafiles for Information Leakage](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/03-Review_Webserver_Metafiles_for_Information_Leakage.md)
+- [ ] [Enumerate Applications on Webserver](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/04-Enumerate_Applications_on_Webserver.md)
+- [ ] [Review Webpage Content for Information Leakage](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage.md)
+- [ ] [Identify application entry points](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/06-Identify_Application_Entry_Points.md)
+- [ ] [Map execution paths through application](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/07-Map_Execution_Paths_Through_Application.md)
+- [ ] [Fingerprint Web Application Framework](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework.md)
+- [X] ~~Fingerprint Web Application~~
+- [ ] [Map Application Architecture](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/10-Map_Application_Architecture.md)
 
 </details>
 
-#### Configuration and Deploy Management Testing
+#### 2. Configuration and Deploy Management Testing
 
 <details>
 <summary>Click to expand</summary>
 
-11. [ ] [Test Network Infrastructure Configuration]()
-12. [ ] [Test Application Platform Configuration]()
-13. [ ] [Test File Extensions Handling for Sensitive Information]()
-14. [ ] [Review Old Backup and Unreferenced Files for Sensitive Information]()
-15. [ ] [Enumerate Infrastructure and Application Admin Interfaces]()
-16. [ ] [Test HTTP Methods]()
-17. [ ] [Test HTTP Strict Transport Security]()
-18. [ ] [Test RIA cross domain policy]()
-19. [ ] [Test File Permission]()
-20. [ ] [Test for Subdomain Takeover]()
-21. [ ] [Test Cloud Storage]()
+- [ ] [Test Network Infrastructure Configuration](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/01-Test_Network_Infrastructure_Configuration.md)
+- [ ] [Test Application Platform Configuration](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/02-Test_Application_Platform_Configuration.md)
+- [ ] [Test File Extensions Handling for Sensitive Information](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/03-Test_File_Extensions_Handling_for_Sensitive_Information.md)
+- [ ] [Review Old Backup and Unreferenced Files for Sensitive Information](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/04-Review_Old_Backup_and_Unreferenced_Files_for_Sensitive_Information.md)
+- [ ] [Enumerate Infrastructure and Application Admin Interfaces](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/05-Enumerate_Infrastructure_and_Application_Admin_Interfaces.md)
+- [ ] [Test HTTP Methods](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/06-Test_HTTP_Methods.md)
+- [ ] [Test HTTP Strict Transport Security](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/07-Test_HTTP_Strict_Transport_Security.md)
+- [ ] [Test RIA cross domain policy](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/08-Test_RIA_Cross_Domain_Policy.md)
+- [ ] [Test File Permission](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/09-Test_File_Permission.md)
+- [ ] [Test for Subdomain Takeover](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/10-Test_for_Subdomain_Takeover.md)
+- [ ] [Test Cloud Storage](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/11-Test_Cloud_Storage.md)
 
 </details>
 
-#### Identity Management Testing
+#### 3. Identity Management Testing
 
 <details>
 <summary>Click to expand</summary>
 
-22. [ ] [Test Role Definitions]()
-23. [ ] [Test User Registration Process]()
-24. [ ] [Test Account Provisioning Process]()
-25. [ ] [Testing for Account Enumeration and Guessable User Account]()
-26. [ ] [Testing for Weak or unenforced username policy]()
+- [ ] [Test Role Definitions](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/01-Test_Role_Definitions.md)
+- [ ] [Test User Registration Process](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/02-Test_User_Registration_Process.md)
+- [ ] [Test Account Provisioning Process](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/03-Test_Account_Provisioning_Process.md)
+- [ ] [Testing for Account Enumeration and Guessable User Account](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/04-Testing_for_Account_Enumeration_and_Guessable_User_Account.md)
+- [ ] [Testing for Weak or unenforced username policy](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/05-Testing_for_Weak_or_Unenforced_Username_Policy.md)
 
 </details>
 
-#### Authentication Testing
+#### 4. Authentication Testing
 
 <details>
 <summary>Click to expand</summary>
 
-27. [ ] [Testing for Credentials Transported over an Encrypted Channel]()
-28. [ ] [Testing for Default Credentials]()
-29. [ ] [Testing for Weak Lock Out Mechanism]()
-30. [ ] [Testing for Bypassing Authentication Schema]()
-31. [ ] [Testing for Vulnerable Remember Password]()
-32. [ ] [Testing for Browser Cache Weaknesses]()
-33. [ ] [Testing for Weak Password Policy]()
-34. [ ] [Testing for Weak Security Question Answer]()
-35. [ ] [Testing for Weak Password Change or Reset Functionalities]()
-36. [ ] [Testing for Weaker Authentication in Alternative Channel]()
+- [ ] [Testing for Credentials Transported over an Encrypted Channel](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/04-Authentication_Testing/01-Testing_for_Credentials_Transported_over_an_Encrypted_Channel.md)
+- [ ] [Testing for Default Credentials](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/04-Authentication_Testing/02-Testing_for_Default_Credentials.md)
+- [ ] [Testing for Weak Lock Out Mechanism](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/04-Authentication_Testing/03-Testing_for_Weak_Lock_Out_Mechanism.md)
+- [ ] [Testing for Bypassing Authentication Schema](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/04-Authentication_Testing/04-Testing_for_Bypassing_Authentication_Schema.md)
+- [ ] [Testing for Vulnerable Remember Password](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/04-Authentication_Testing/05-Testing_for_Vulnerable_Remember_Password.md)
+- [ ] [Testing for Browser Cache Weaknesses](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/04-Authentication_Testing/06-Testing_for_Browser_Cache_Weaknesses.md)
+- [ ] [Testing for Weak Password Policy](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/04-Authentication_Testing/07-Testing_for_Weak_Password_Policy.md)
+- [ ] [Testing for Weak Security Question Answer](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/04-Authentication_Testing/08-Testing_for_Weak_Security_Question_Answer.md)
+- [ ] [Testing for Weak Password Change or Reset Functionalities](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/04-Authentication_Testing/09-Testing_for_Weak_Password_Change_or_Reset_Functionalities.md)
+- [ ] [Testing for Weaker Authentication in Alternative Channel](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/04-Authentication_Testing/10-Testing_for_Weaker_Authentication_in_Alternative_Channel.md)
 
 </details>
 
-#### Authorisation Testing
+#### 5. Authorisation Testing
 
 <details>
 <summary>Click to expand</summary>
 
-37. [ ] [Testing Directory Traversal File Include]()
-38. [ ] [Testing for Bypassing Authorization Schema]()
-39. [ ] [Testing for Privilege Escalation]()
-40. [ ] [Testing for Insecure Direct Object References]()
+- [ ] [Testing Directory Traversal File Include](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/05-Authorization_Testing/01-Testing_Directory_Traversal_File_Include.md)
+- [ ] [Testing for Bypassing Authorization Schema](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/05-Authorization_Testing/02-Testing_for_Bypassing_Authorization_Schema.md)
+- [ ] [Testing for Privilege Escalation](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/05-Authorization_Testing/03-Testing_for_Privilege_Escalation.md)
+- [ ] [Testing for Insecure Direct Object References](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/05-Authorization_Testing/05-Testing_for_OAuth_Weaknesses.md)
 
 </details>
 
-#### Session Management Testing
+#### 6. Session Management Testing
 
 <details>
 <summary>Click to expand</summary>
 
-41. [ ] [Testing for Session Management Schema]()
-42. [ ] [Testing for Cookies Attributes]()
-43. [ ] [Testing for Session Fixation]()
-44. [ ] [Testing for Exposed Session Variables]()
-45. [ ] [Testing for Cross Site Request Forgery]()
-46. [ ] [Testing for Logout Functionality]()
-47. [ ] [Testing Session Timeout]()
-48. [ ] [Testing for Session Puzzling]()
-49. [ ] [Testing for Session Hijacking]()
+- [ ] [Testing for Session Management Schema](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/01-Testing_for_Session_Management_Schema.md)
+- [ ] [Testing for Cookies Attributes](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.md)
+- [ ] [Testing for Session Fixation](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/03-Testing_for_Session_Fixation.md)
+- [ ] [Testing for Exposed Session Variables](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/04-Testing_for_Exposed_Session_Variables.md)
+- [ ] [Testing for Cross Site Request Forgery](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/05-Testing_for_Cross_Site_Request_Forgery.md)
+- [ ] [Testing for Logout Functionality](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/06-Testing_for_Logout_Functionality.md)
+- [ ] [Testing Session Timeout](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/07-Testing_Session_Timeout.md)
+- [ ] [Testing for Session Puzzling](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/08-Testing_for_Session_Puzzling.md)
+- [ ] [Testing for Session Hijacking](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/09-Testing_for_Session_Hijacking.md)
 
 </details>
 
-#### Data Validation Testing
+#### 7. Data Validation Testing
 
 <details>
 <summary>Click to expand</summary>
 
-50. [ ] [Testing for Reflected Cross Site Scripting]()
-51. [ ] [Testing for Stored Cross Site Scripting]()
-52. [ ] [Testing for HTTP Verb Tampering]()
-53. [ ] [Testing for HTTP Parameter Pollution]()
-54. [ ] [Testing for SQL Injection]()
-55. [ ] [Testing for LDAP Injection]()
-56. [ ] [Testing for XML Injection]()
-57. [ ] [Testing for SSI Injection]()
-58. [ ] [Testing for XPath Injection]()
-59. [ ] [Testing for IMAP SMTP Injection]()
-60. [ ] [Testing for Code Injection]()
-61. [ ] [Testing for Command Injection]()
-62. [ ] [Testing for Format String Injection]()
-63. [ ] [Testing for Incubated Vulnerability]()
-64. [ ] [Testing for HTTP Splitting Smuggling]()
-65. [ ] [Testing for HTTP Incoming Requests]()
-66. [ ] [Testing for Host Header Injection]()
-67. [ ] [Testing for Server-side Template Injection]()
-68. [ ] [Testing for Server-Side Request Forgery]()
+- [ ] [Testing for Reflected Cross Site Scripting](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.md)
+- [ ] [Testing for Stored Cross Site Scripting](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting.md)
+- [ ] [Testing for HTTP Verb Tampering](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/03-Testing_for_HTTP_Verb_Tampering.md)
+- [ ] [Testing for HTTP Parameter Pollution](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/04-Testing_for_HTTP_Parameter_Pollution.md)
+- [ ] [Testing for SQL Injection](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection.md)
+- [ ] [Testing for LDAP Injection](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/06-Testing_for_LDAP_Injection.md)
+- [ ] [Testing for XML Injection](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/07-Testing_for_XML_Injection.md)
+- [ ] [Testing for SSI Injection](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/08-Testing_for_SSI_Injection.md)
+- [ ] [Testing for XPath Injection](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/09-Testing_for_XPath_Injection.md)
+- [ ] [Testing for IMAP SMTP Injection](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/10-Testing_for_IMAP_SMTP_Injection.md)
+- [ ] [Testing for Code Injection](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/11-Testing_for_Code_Injection.md)
+- [ ] [Testing for Command Injection](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/12-Testing_for_Command_Injection.md)
+- [ ] [Testing for Format String Injection](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/13-Testing_for_Format_String_Injection.md)
+- [ ] [Testing for Incubated Vulnerability](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/14-Testing_for_Incubated_Vulnerability.md)
+- [ ] [Testing for HTTP Splitting Smuggling](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/15-Testing_for_HTTP_Splitting_Smuggling.md)
+- [ ] [Testing for HTTP Incoming Requests](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/16-Testing_for_HTTP_Incoming_Requests.md)
+- [ ] [Testing for Host Header Injection](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/17-Testing_for_Host_Header_Injection.md)
+- [ ] [Testing for Server-side Template Injection](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server-side_Template_Injection.md)
+- [ ] [Testing for Server-Side Request Forgery](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/19-Testing_for_Server-Side_Request_Forgery.md)
 
 </details>
 
-#### Error Handling
+#### 8. Error Handling
 
 <details>
 <summary>Click to expand</summary>
 
-69. [ ] [Testing for Improper Error Handling]()
-70. [ ] [Testing for Stack Traces]()
+- [ ] [Testing for Improper Error Handling](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/01-Testing_For_Improper_Error_Handling.md)
+- [ ] [Testing for Stack Traces](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/02-Testing_for_Stack_Traces.md)
 
 </details>
 
-#### Cryptography
+#### 9. Cryptography
 
 <details>
 <summary>Click to expand</summary>
 
-71. [ ] [Testing for Weak Transport Layer Security]()
-72. [ ] [Testing for Padding Oracle]()
-73. [ ] [Testing for Sensitive Information Sent via Unencrypted Channels]()
-74. [ ] [Testing for Weak Encryption]()
+- [ ] [Testing for Weak Transport Layer Security](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/01-Testing_for_Weak_Transport_Layer_Security.md)
+- [ ] [Testing for Padding Oracle](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/02-Testing_for_Padding_Oracle.md)
+- [ ] [Testing for Sensitive Information Sent via Unencrypted Channels](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/03-Testing_for_Sensitive_Information_Sent_via_Unencrypted_Channels.md)
+- [ ] [Testing for Weak Encryption](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/04-Testing_for_Weak_Encryption.md)
 
 </details>
 
-#### Business logic Testing
+#### 10. Business logic Testing
 
 <details>
 <summary>Click to expand</summary>
 
-75. [ ] [Test Business Logic Data Validation]()
-76. [ ] [Test Ability to Forge Requests]()
-77. [ ] [Test Integrity Checks]()
-78. [ ] [Test for Process Timing]()
-79. [ ] [Test Number of Times a Function Can be Used Limits]()
-80. [ ] [Testing for the Circumvention of Work Flows]()
-81. [ ] [Test Defenses Against Application Mis-use]()
-82. [ ] [Test Upload of Unexpected File Types]()
-83. [ ] [Test Upload of Malicious Files]()
+- [ ] [Test Business Logic Data Validation](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/01-Test_Business_Logic_Data_Validation.md)
+- [ ] [Test Ability to Forge Requests](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/02-Test_Ability_to_Forge_Requests.md)
+- [ ] [Test Integrity Checks](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/03-Test_Integrity_Checks.md)
+- [ ] [Test for Process Timing](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/04-Test_for_Process_Timing.md)
+- [ ] [Test Number of Times a Function Can be Used Limits](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/05-Test_Number_of_Times_a_Function_Can_Be_Used_Limits.md)
+- [ ] [Testing for the Circumvention of Work Flows](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/06-Testing_for_the_Circumvention_of_Work_Flows.md)
+- [ ] [Test Defenses Against Application Mis-use](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/07-Test_Defenses_Against_Application_Misuse.md)
+- [ ] [Test Upload of Unexpected File Types](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/08-Test_Upload_of_Unexpected_File_Types.md)
+- [ ] [Test Upload of Malicious Files](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/09-Test_Upload_of_Malicious_Files.md)
 
 </details>
 
-#### Client Side Testing
+#### 11. Client Side Testing
 
 <details>
 <summary>Click to expand</summary>
 
-84. [ ] [Testing for DOM-Based Cross Site Scripting]()
-85. [ ] [Testing for JavaScript Execution]()
-86. [ ] [Testing for HTML Injection]()
-87. [ ] [Testing for Client Side URL Redirect]()
-88. [ ] [Testing for CSS Injection]()
-89. [ ] [Testing for Client Side Resource Manipulation]()
-90. [ ] [Test Cross Origin Resource Sharing]()
-91. [ ] [Testing for Cross Site Flashing]()
-92. [ ] [Testing for Clickjacking]()
-93. [ ] [Testing WebSockets]()
-94. [ ] [Test Web Messaging]()
-95. [ ] [Testing Browser Storage]()
-96. [ ] [Testing for Cross Site Script Inclusion]()
+- [ ] [Testing for DOM-Based Cross Site Scripting](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client-side_Testing/01-Testing_for_DOM-based_Cross_Site_Scripting.md)
+- [ ] [Testing for JavaScript Execution](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client-side_Testing/02-Testing_for_JavaScript_Execution.md)
+- [ ] [Testing for HTML Injection](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client-side_Testing/03-Testing_for_HTML_Injection.md)
+- [ ] [Testing for Client Side URL Redirect](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client-side_Testing/04-Testing_for_Client-side_URL_Redirect.md)
+- [ ] [Testing for CSS Injection](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client-side_Testing/05-Testing_for_CSS_Injection.md)
+- [ ] [Testing for Client Side Resource Manipulation](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client-side_Testing/06-Testing_for_Client-side_Resource_Manipulation.md)
+- [ ] [Test Cross Origin Resource Sharing](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client-side_Testing/07-Testing_Cross_Origin_Resource_Sharing.md)
+- [ ] [Testing for Cross Site Flashing](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client-side_Testing/08-Testing_for_Cross_Site_Flashing.md)
+- [ ] [Testing for Clickjacking](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client-side_Testing/09-Testing_for_Clickjacking.md)
+- [ ] [Testing WebSockets](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client-side_Testing/10-Testing_WebSockets.md)
+- [ ] [Test Web Messaging](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client-side_Testing/11-Testing_Web_Messaging.md)
+- [ ] [Testing Browser Storage](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client-side_Testing/12-Testing_Browser_Storage.md)
+- [ ] [Testing for Cross Site Script Inclusion](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client-side_Testing/13-Testing_for_Cross_Site_Script_Inclusion.md)
 
 </details>
 
-#### API Testing
+#### 12. API Testing
 
 <details>
 <summary>Click to expand</summary>
 
-97. [ ] [Testing GraphQL]()
+- [ ] [Testing GraphQL](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/12-API_Testing/01-Testing_GraphQL.md)
 
 </details>
 
 
 ### OWASP Secure Coding Practices Checklist
 
-#### Input Validation
+#### 1. Input Validation
 
 <details>
 <summary>Click to expand</summary>
@@ -278,7 +276,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### Output Encoding
+#### 2. Output Encoding
 
 <details>
 <summary>Click to expand</summary>
@@ -292,7 +290,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### Authentication and Password Management
+#### 3. Authentication and Password Management
 
 <details>
 <summary>Click to expand</summary>
@@ -335,8 +333,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### Session Management
-
+#### 4. Session Management
 
 <details>
 <summary>Click to expand</summary>
@@ -364,54 +361,54 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### Access Control
+#### 5. Access Control
 
 <details>
 <summary>Click to expand</summary>
 
-1. [ ] Use only trusted system objects, e.g. server side session objects, for making access authorization decisions.
-2. [ ] Use a single site-wide component to check access authorization. This includes libraries that call external authorization services.
-3. [ ] Access controls should fail securely.
-4. [ ] Deny all access if the application cannot access its security configuration information.
-5. [ ] Enforce authorization controls on every request, including those made by server side scripts, "includes" and requests from rich client-side technologies like AJAX and Flash.
-6. [ ] Segregate privileged logic from other application code.
-7. [ ] Restrict access to files or other resources, including those outside the application's direct control, to only authorized users.
-8. [ ] Restrict access to protected URLs to only authorized users.
-9. [ ] Restrict access to protected functions to only authorized users.
-10. [ ] Restrict direct object references to only authorized users.
-11. [ ] Restrict access to services to only authorized users.
-12. [ ] Restrict access to application data to only authorized users.
-13. [ ] Restrict access to user and data attributes and policy information used by access controls.
-14. [ ] Restrict access security-relevant configuration information to only authorized users.
-15. [ ] Server side implementation and presentation layer representations of access control rules must match.
-16. [ ] If state data must be stored on the client, use encryption and integrity checking on the server side to catch state tampering.
-17. [ ] Enforce application logic flows to comply with business rules.
-18. [ ] Limit the number of transactions a single user or device can perform in a given period of time. The transactions/time should be above the actual business requirement, but low enough to deter automated attacks.
-19. [ ] Use the "referer" header as a supplemental check only, it should never be the sole authorization check, as it is can be spoofed.
-20. [ ] If long authenticated sessions are allowed, periodically re-validate a user’s authorization to ensure that their privileges have not changed and if they have, log the user out and force them to re-authenticate.
-21. [ ] Implement account auditing and enforce the disabling of unused accounts (e.g., After no more than 30 days from the expiration of an account’s password.).
-22. [ ] The application must support disabling of accounts and terminating sessions when authorization ceases (e.g., Changes to role, employment status, business process, etc.).
-23. [ ] Service accounts or accounts supporting connections to or from external systems should have the least privilege possible.
-24. [ ] Create an Access Control Policy to document an application's business rules, data types and access authorization criteria and/or processes so that access can be properly provisioned and controlled. This includes identifying access requirements for both the data and system resources.
+- [ ] Use only trusted system objects, e.g. server side session objects, for making access authorization decisions.
+- [ ] Use a single site-wide component to check access authorization. This includes libraries that call external authorization services.
+- [ ] Access controls should fail securely.
+- [ ] Deny all access if the application cannot access its security configuration information.
+- [ ] Enforce authorization controls on every request, including those made by server side scripts, "includes" and requests from rich client-side technologies like AJAX and Flash.
+- [ ] Segregate privileged logic from other application code.
+- [ ] Restrict access to files or other resources, including those outside the application's direct control, to only authorized users.
+- [ ] Restrict access to protected URLs to only authorized users.
+- [ ] Restrict access to protected functions to only authorized users.
+- [ ] Restrict direct object references to only authorized users.
+- [ ] Restrict access to services to only authorized users.
+- [ ] Restrict access to application data to only authorized users.
+- [ ] Restrict access to user and data attributes and policy information used by access controls.
+- [ ] Restrict access security-relevant configuration information to only authorized users.
+- [ ] Server side implementation and presentation layer representations of access control rules must match.
+- [ ] If state data must be stored on the client, use encryption and integrity checking on the server side to catch state tampering.
+- [ ] Enforce application logic flows to comply with business rules.
+- [ ] Limit the number of transactions a single user or device can perform in a given period of time. The transactions/time should be above the actual business requirement, but low enough to deter automated attacks.
+- [ ] Use the "referer" header as a supplemental check only, it should never be the sole authorization check, as it is can be spoofed.
+- [ ] If long authenticated sessions are allowed, periodically re-validate a user’s authorization to ensure that their privileges have not changed and if they have, log the user out and force them to re-authenticate.
+- [ ] Implement account auditing and enforce the disabling of unused accounts (e.g., After no more than 30 days from the expiration of an account’s password.).
+- [ ] The application must support disabling of accounts and terminating sessions when authorization ceases (e.g., Changes to role, employment status, business process, etc.).
+- [ ] Service accounts or accounts supporting connections to or from external systems should have the least privilege possible.
+- [ ] Create an Access Control Policy to document an application's business rules, data types and access authorization criteria and/or processes so that access can be properly provisioned and controlled. This includes identifying access requirements for both the data and system resources.
 
 
 </details>
 
-#### Cryptographic Practices
+#### 6. Cryptographic Practices
 
 <details>
 <summary>Click to expand</summary>
 
-25. [ ] All cryptographic functions used to protect secrets from the application user must be implemented on a trusted system (e.g. the server).
-26. [ ] Protect master secrets from unauthorized access.
-27. [ ] Cryptographic modules should fail securely.
-28. [ ] All random numbers, random file names, random GUIDs, and random strings should be generated using the cryptographic module’s approved random number generator when these random values are intended to be un-guessable.
-29. [ ] Cryptographic modules used by the application should be compliant to FIPS 140-2 or an equivalent standard.
-30. [ ] Establish and utilize a policy and process for how cryptographic keys will be managed.
+- [ ] All cryptographic functions used to protect secrets from the application user must be implemented on a trusted system (e.g. the server).
+- [ ] Protect master secrets from unauthorized access.
+- [ ] Cryptographic modules should fail securely.
+- [ ] All random numbers, random file names, random GUIDs, and random strings should be generated using the cryptographic module’s approved random number generator when these random values are intended to be un-guessable.
+- [ ] Cryptographic modules used by the application should be compliant to FIPS 140-2 or an equivalent standard.
+- [ ] Establish and utilize a policy and process for how cryptographic keys will be managed.
 
 </details>
 
-#### Error Handling and Logging
+#### 7. Error Handling and Logging
 
 <details>
 <summary>Click to expand</summary>
@@ -443,7 +440,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### Data Protection
+#### 8. Data Protection
 
 <details>
 <summary>Click to expand</summary>
@@ -463,7 +460,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### Communication Security
+#### 9. Communication Security
 
 <details>
 <summary>Click to expand</summary>
@@ -479,7 +476,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### System Configuration
+#### 10. System Configuration
 
 <details>
 <summary>Click to expand</summary>
@@ -503,7 +500,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### Database Security
+#### 11. Database Security
 
 <details>
 <summary>Click to expand</summary>
@@ -523,7 +520,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### File Management
+#### 12. File Management
 
 <details>
 <summary>Click to expand</summary>
@@ -544,7 +541,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### Memory Management
+#### 13. Memory Management
 
 <details>
 <summary>Click to expand</summary>
@@ -561,7 +558,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### General Coding Practices
+#### 14. General Coding Practices
 
 <details>
 <summary>Click to expand</summary>
@@ -580,4 +577,3 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 - [ ] Implement safe updating. If the application will utilize automatic updates, then use cryptographic signatures for your code and ensure your download clients verify those signatures. Use encrypted channels to transfer the code from the host server.
 
 </details>
-
