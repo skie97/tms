@@ -74,10 +74,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 2. Configuration and Deploy Management Testing
-
 <details>
-<summary>Click to expand</summary>
+<summary><h4>2. Configuration and Deploy Management Testing</h4></summary>
 
 - [ ] [Test Network Infrastructure Configuration](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/01-Test_Network_Infrastructure_Configuration.md)
 - [ ] [Test Application Platform Configuration](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/02-Test_Application_Platform_Configuration.md)
@@ -93,10 +91,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 3. Identity Management Testing
-
 <details>
-<summary>Click to expand</summary>
+<summary><h4>3. Identity Management Testing</h4></summary>
 
 - [ ] [Test Role Definitions](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/01-Test_Role_Definitions.md)
 - [ ] [Test User Registration Process](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/02-Test_User_Registration_Process.md)
@@ -106,10 +102,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 4. Authentication Testing
-
 <details>
-<summary>Click to expand</summary>
+<summary><h4>4. Authentication Testing</h4></summary>
 
 - [ ] [Testing for Credentials Transported over an Encrypted Channel](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/04-Authentication_Testing/01-Testing_for_Credentials_Transported_over_an_Encrypted_Channel.md)
 - [ ] [Testing for Default Credentials](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/04-Authentication_Testing/02-Testing_for_Default_Credentials.md)
@@ -124,10 +118,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 5. Authorisation Testing
-
 <details>
-<summary>Click to expand</summary>
+<summary><h4>5. Authorisation Testing</h4></summary>
 
 - [ ] [Testing Directory Traversal File Include](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/05-Authorization_Testing/01-Testing_Directory_Traversal_File_Include.md)
 - [ ] [Testing for Bypassing Authorization Schema](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/05-Authorization_Testing/02-Testing_for_Bypassing_Authorization_Schema.md)
@@ -136,10 +128,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 6. Session Management Testing
-
 <details>
-<summary>Click to expand</summary>
+<summary><h4>6. Session Management Testing</h4></summary>
 
 - [ ] [Testing for Session Management Schema](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/01-Testing_for_Session_Management_Schema.md)
 - [ ] [Testing for Cookies Attributes](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.md)
@@ -153,10 +143,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 7. Data Validation Testing
-
 <details>
-<summary>Click to expand</summary>
+<summary><h4>7. Data Validation Testing</h4></summary>
 
 - [ ] [Testing for Reflected Cross Site Scripting](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.md)
 - [ ] [Testing for Stored Cross Site Scripting](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting.md)
@@ -180,20 +168,16 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 8. Error Handling
-
 <details>
-<summary>Click to expand</summary>
+<summary><h4>8. Error Handling</h4></summary>
 
 - [ ] [Testing for Improper Error Handling](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/01-Testing_For_Improper_Error_Handling.md)
 - [ ] [Testing for Stack Traces](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/02-Testing_for_Stack_Traces.md)
 
 </details>
 
-#### 9. Cryptography
-
 <details>
-<summary>Click to expand</summary>
+<summary><h4>9. Cryptography</h4></summary>
 
 - [ ] [Testing for Weak Transport Layer Security](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/01-Testing_for_Weak_Transport_Layer_Security.md)
 - [ ] [Testing for Padding Oracle](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/02-Testing_for_Padding_Oracle.md)
@@ -202,10 +186,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 10. Business logic Testing
-
 <details>
-<summary>Click to expand</summary>
+<summary><h4>10. Business logic Testing</h4></summary>
 
 - [ ] [Test Business Logic Data Validation](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/01-Test_Business_Logic_Data_Validation.md)
 - [ ] [Test Ability to Forge Requests](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/02-Test_Ability_to_Forge_Requests.md)
@@ -219,10 +201,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 11. Client Side Testing
-
 <details>
-<summary>Click to expand</summary>
+<summary><h4>11. Client Side Testing</h4></summary>
 
 - [ ] [Testing for DOM-Based Cross Site Scripting](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client-side_Testing/01-Testing_for_DOM-based_Cross_Site_Scripting.md)
 - [ ] [Testing for JavaScript Execution](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client-side_Testing/02-Testing_for_JavaScript_Execution.md)
@@ -240,10 +220,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 12. API Testing
-
 <details>
-<summary>Click to expand</summary>
+<summary><h4>12. API Testing</h4></summary>
 
 - [ ] [Testing GraphQL](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/12-API_Testing/01-Testing_GraphQL.md)
 
@@ -252,10 +230,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 ### OWASP Secure Coding Practices Checklist
 
-#### 1. Input Validation
-
 <details>
-<summary>Click to expand</summary>
+<summary>1. Input Validation</summary>
 
 - [ ] Conduct all data validation on a trusted system (e.g. the server).
 - [ ] Identify all data sources and classify them into trusted and untrusted. Validate all data from untrusted sources (e.g. Databases, file streams).
@@ -276,10 +252,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 2. Output Encoding
-
 <details>
-<summary>Click to expand</summary>
+<summary>2. Output Encoding</summary>
 
 - [ ] Conduct all encoding on a trusted system (e.g. the server).
 - [ ] Utilize a standard, tested routine for each type of outbound encoding.
@@ -290,10 +264,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 3. Authentication and Password Management
-
 <details>
-<summary>Click to expand</summary>
+<summary>3. Authentication and Password Management</summary>
 
 - [ ] Require authentication for all pages and resources, except those specifically intended to be public.
 - [ ] All authentication controls must be enforced on a trusted system (e.g. the server).
@@ -333,10 +305,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 4. Session Management
-
 <details>
-<summary>Click to expand</summary>
+<summary>4. Session Management</summary>
 
 - [ ] Use the server or framework’s session management controls. The application should only recognize these session identifiers as valid.
 - [ ] Session identifier creation must always be done on a trusted system (e.g. the server).
@@ -361,10 +331,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 5. Access Control
-
 <details>
-<summary>Click to expand</summary>
+<summary>5. Access Control</summary>
 
 - [ ] Use only trusted system objects, e.g. server side session objects, for making access authorization decisions.
 - [ ] Use a single site-wide component to check access authorization. This includes libraries that call external authorization services.
@@ -394,10 +362,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 6. Cryptographic Practices
-
 <details>
-<summary>Click to expand</summary>
+<summary>6. Cryptographic Practices</summary>
 
 - [ ] All cryptographic functions used to protect secrets from the application user must be implemented on a trusted system (e.g. the server).
 - [ ] Protect master secrets from unauthorized access.
@@ -408,10 +374,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 7. Error Handling and Logging
-
 <details>
-<summary>Click to expand</summary>
+<summary>7. Error Handling and Logging</summary>
 
 - [ ] Do not disclose sensitive information in error responses, including system details, session identifiers or account information.
 - [ ] Use error handlers that do not display debugging or stack trace information.
@@ -440,10 +404,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 8. Data Protection
-
 <details>
-<summary>Click to expand</summary>
+<summary>8. Data Protection</summary>
 
 - [ ] Implement least privilege, restrict users to only the functionality, data and system information that is required to perform their tasks.
 - [ ] Protect all cached or temporary copies of sensitive data stored on the server from unauthorized access and purge those temporary working files a soon as they are no longer required.
@@ -460,10 +422,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 9. Communication Security
-
 <details>
-<summary>Click to expand</summary>
+<summary>9. Communication Security</summary>
 
 - [ ] Implement encryption for the transmission of all sensitive information. This should include TLS for protecting the connection and may be supplemented by discrete encryption of sensitive files or non-HTTP based connections.
 - [ ] TLS certificates should be valid and have the correct domain name, not be expired, and be installed with intermediate certificates when required.
@@ -476,10 +436,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 10. System Configuration
-
 <details>
-<summary>Click to expand</summary>
+<summary>10. System Configuration</summary>
 
 - [ ] Ensure servers, frameworks and system components are running the latest approved version.
 - [ ] Ensure servers, frameworks and system components have all patches issued for the version in use.
@@ -500,10 +458,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 11. Database Security
-
 <details>
-<summary>Click to expand</summary>
+<summary>11. Database Security</summary>
 
 - [ ] Use strongly typed parameterized queries.
 - [ ] Utilize input validation and output encoding and be sure to address meta characters. If these fail, do not run the database command.
@@ -520,10 +476,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 12. File Management
-
 <details>
-<summary>Click to expand</summary>
+<summary>12. File Management</summary>
 
 - [ ] Do not pass user supplied data directly to any dynamic include function.
 - [ ] Require authentication before allowing a file to be uploaded.
@@ -541,10 +495,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 13. Memory Management
-
 <details>
-<summary>Click to expand</summary>
+<summary>13. Memory Management</summary>
 
 - [ ] Utilize input and output control for un-trusted data.
 - [ ] Double check that the buffer is as large as specified.
@@ -558,10 +510,8 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 </details>
 
-#### 14. General Coding Practices
-
 <details>
-<summary>Click to expand</summary>
+<summary>14. General Coding Practices</summary>
 
 - [ ] Use tested and approved managed code rather than creating new unmanaged code for common tasks.
 - [ ] Utilize task specific built-in APIs to conduct operating system tasks. Do not allow the application to issue commands directly to the Operating System, especially through the use of application initiated command shells.
