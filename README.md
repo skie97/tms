@@ -59,7 +59,7 @@ Tools to incorporate (WIP):
 The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 
 <details>
-<summary><h4>1. Information Gathering<h4></summary>
+<summary>1. Information Gathering</summary>
 
 - [ ] [Conduct Search Engine Discovery Reconnaissance for Information Leakage](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/01-Conduct_Search_Engine_Discovery_Reconnaissance_for_Information_Leakage.md)
 - [ ] [Fingerprint Web Server](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/01-Information_Gathering/02-Fingerprint_Web_Server.md)
@@ -75,7 +75,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 </details>
 
 <details>
-<summary><h4>2. Configuration and Deploy Management Testing</h4></summary>
+<summary>2. Configuration and Deploy Management Testing</summary>
 
 - [ ] [Test Network Infrastructure Configuration](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/01-Test_Network_Infrastructure_Configuration.md)
 - [ ] [Test Application Platform Configuration](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/02-Test_Application_Platform_Configuration.md)
@@ -92,7 +92,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 </details>
 
 <details>
-<summary><h4>3. Identity Management Testing</h4></summary>
+<summary>3. Identity Management Testing</summary>
 
 - [ ] [Test Role Definitions](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/01-Test_Role_Definitions.md)
 - [ ] [Test User Registration Process](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/03-Identity_Management_Testing/02-Test_User_Registration_Process.md)
@@ -103,7 +103,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 </details>
 
 <details>
-<summary><h4>4. Authentication Testing</h4></summary>
+<summary>4. Authentication Testing</summary>
 
 - [ ] [Testing for Credentials Transported over an Encrypted Channel](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/04-Authentication_Testing/01-Testing_for_Credentials_Transported_over_an_Encrypted_Channel.md)
 - [ ] [Testing for Default Credentials](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/04-Authentication_Testing/02-Testing_for_Default_Credentials.md)
@@ -119,7 +119,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 </details>
 
 <details>
-<summary><h4>5. Authorisation Testing</h4></summary>
+<summary>5. Authorisation Testing</summary>
 
 - [ ] [Testing Directory Traversal File Include](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/05-Authorization_Testing/01-Testing_Directory_Traversal_File_Include.md)
 - [ ] [Testing for Bypassing Authorization Schema](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/05-Authorization_Testing/02-Testing_for_Bypassing_Authorization_Schema.md)
@@ -129,7 +129,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 </details>
 
 <details>
-<summary><h4>6. Session Management Testing</h4></summary>
+<summary>6. Session Management Testing</summary>
 
 - [ ] [Testing for Session Management Schema](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/01-Testing_for_Session_Management_Schema.md)
 - [ ] [Testing for Cookies Attributes](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.md)
@@ -144,7 +144,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 </details>
 
 <details>
-<summary><h4>7. Data Validation Testing</h4></summary>
+<summary>7. Data Validation Testing</summary>
 
 - [ ] [Testing for Reflected Cross Site Scripting](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/01-Testing_for_Reflected_Cross_Site_Scripting.md)
 - [ ] [Testing for Stored Cross Site Scripting](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/07-Input_Validation_Testing/02-Testing_for_Stored_Cross_Site_Scripting.md)
@@ -169,7 +169,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 </details>
 
 <details>
-<summary><h4>8. Error Handling</h4></summary>
+<summary>8. Error Handling</summary>
 
 - [ ] [Testing for Improper Error Handling](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/01-Testing_For_Improper_Error_Handling.md)
 - [ ] [Testing for Stack Traces](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/08-Testing_for_Error_Handling/02-Testing_for_Stack_Traces.md)
@@ -177,7 +177,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 </details>
 
 <details>
-<summary><h4>9. Cryptography</h4></summary>
+<summary>9. Cryptography</summary>
 
 - [ ] [Testing for Weak Transport Layer Security](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/01-Testing_for_Weak_Transport_Layer_Security.md)
 - [ ] [Testing for Padding Oracle](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/09-Testing_for_Weak_Cryptography/02-Testing_for_Padding_Oracle.md)
@@ -187,7 +187,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 </details>
 
 <details>
-<summary><h4>10. Business logic Testing</h4></summary>
+<summary>10. Business logic Testing</summary>
 
 - [ ] [Test Business Logic Data Validation](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/01-Test_Business_Logic_Data_Validation.md)
 - [ ] [Test Ability to Forge Requests](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/10-Business_Logic_Testing/02-Test_Ability_to_Forge_Requests.md)
@@ -202,7 +202,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 </details>
 
 <details>
-<summary><h4>11. Client Side Testing</h4></summary>
+<summary>11. Client Side Testing</summary>
 
 - [ ] [Testing for DOM-Based Cross Site Scripting](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client-side_Testing/01-Testing_for_DOM-based_Cross_Site_Scripting.md)
 - [ ] [Testing for JavaScript Execution](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/11-Client-side_Testing/02-Testing_for_JavaScript_Execution.md)
@@ -221,7 +221,7 @@ The `Status` column can be set for values similar to "Pass", "Fail", "N/A".
 </details>
 
 <details>
-<summary><h4>12. API Testing</h4></summary>
+<summary>12. API Testing</summary>
 
 - [ ] [Testing GraphQL](https://github.com/OWASP/wstg/blob/master/document/4-Web_Application_Security_Testing/12-API_Testing/01-Testing_GraphQL.md)
 
