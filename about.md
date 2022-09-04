@@ -6,7 +6,7 @@ Some examples of apps built on Stack 2.0:
 | App | Purpose |
 | :-- | :------ |
 | [ROKR](https://github.com/chrischow/rokr) | For managing RAiD's Objectives & Key Results. |
-| [RDO Data Catalogue](https://github.com/chrischow/rdo-data-platform/tree/main/data-catalogue) | Data catalogue to make data discoverable. |
+| [RDO Data Catalogue](https://github.com/chrischow/rdo-data-catalogue) | Data catalogue to make data discoverable. |
 | [GNO](https://github.com/chrischow/rdo-gno) | Information portal for military platforms and weapons. |
 | [RDO Markdown Editor](https://github.com/chrischow/rdo-md-editor) | For notetaking in markdown with a preview. |
 
