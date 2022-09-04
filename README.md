@@ -1,5 +1,5 @@
 # Stack 2.0 App
-This is a template repository for a Stack 2.0 app. Rename the title above to your project name.
+This is a template repository for a [Stack 2.0](./about.md) app. Rename the title above to your project name.
 
 ## Introduction
 Introduce your project here. Guiding questions:
@@ -42,4 +42,3 @@ erDiagram
     string ColumnIV "Column IV"
   }
 ```
-
