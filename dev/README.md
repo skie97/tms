@@ -54,7 +54,7 @@ erDiagram
 | react-icons | Icons |
 | craco | Custom build to single bundle |
 
-## Checklist for React
+## Security Checklist for React Frontend
 
 | S/N | Category | Item | Check |
 | :-: | :------- | :--- | :---- |

@@ -10,7 +10,7 @@ Tools to incorporate (WIP):
 
 1. Jest
 
-## Checklist for React
+## Security Checklist for React Frontend
 Based on the readings below.
 
 | S/N | Category | Item | Check |
