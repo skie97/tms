@@ -34,33 +34,27 @@ Backend tools:
 | RavenPoint (external) | SharePoint REST API emulator (For development only) |
 
 ## Project Structure
-See the diagram below for the project structure for a standard Stack 2.0 project. The `prod-build` folder is for housing the app, bundled by `create-react-app` (CRA). The `dev` folder contains your standard CRA files from the TypeScript template.
+See the diagram below for the project structure for a standard Stack 2.0 project. The `prod-build` folder is for housing the packaged app, while the `dev` folder contains the source files. The files listed below are *in addition / changes* to the default Create-React-App TypeScript template.
 
 ```
 .
-├── prod-build              # Compiled files - similar structure to dev/build
+├── prod-build                       # Compiled files - similar structure to dev/build
 │   ├── static
 │   │   ├── css
 │   │   ├── js
 │   └── index.html
-├── dev                     # Development files
-│   ├── build               # - CRA build files
-│   ├── node_modules        # - npm modules (gitignored)
-│   ├── public              # - CRA static files
-│   │   ├── static
-│   │   │   ├── css
-│   │   │   └── js
-│   │   └── index.html
-│   ├── src                 # - CRA source files
-│   │   ├── components      #   - React components
-│   │   ├── hooks           #   - React-Query hooks
-│   │   ├── utils           #   - Custom functions
-│   │   └── config.tsx      #   - Configs: API base URL, List IDs
-│   ├── package-lock.json   # - Project metadata
-│   ├── package.json        # - Project metadata
-│   └── README.md           # - CRA README
-├── .gitignore
-└── README.md
+├── dev
+│   ├── src
+│   │   ├── <top-level component>    # Top-level React components, imported in App.js
+│   │   ├── shared                   # Any code used by multiple components  
+│   │   │   ├── utils                # - Custom functions
+│   │   │   ├── hooks                # - React Query hooks
+│   │   │   ├── types                # - Common interfaces
+│   │   │   └── <custom components>  # - Custom components
+│   │   └── config.tsx               # Custom configs: API base URL, List IDs, React Query settings
+│   ├── cra-instructions.md          # Create-React-App instructions, just in case
+│   └── README.md                    # Developer guide
+└── README.md                        # Project README
 ```
 
 
