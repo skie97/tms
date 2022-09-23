@@ -16,19 +16,22 @@ Frontend tools:
 
 | Library | Purpose |
 | :------ | :------ |
-| ReactJS (TypeScript) | Primary frontend library |
-| Bootstrap/React-Bootstrap or Material UI | Primary style framework |
-| React-Query | For managing queries to backend |
-| React-Router | For routing of app's pages |
-| React-Icons | For icons |
-| Material-Table | For rendering tables |
+| react | Frontend library |
+| react-router-dom | For routing as an SPA |
+| react-query | State management and querying |
+| axios | HTTP requests |
+| jquery | DOM manipulation |
+| validator | Form validation |
+| slugify | Shortening text to safe form |
+| react-icons | Icons |
+| craco | Custom build to single bundle |
 
 Backend tools:
 
 | Library | Purpose |
 | :------ | :------ |
 | SharePoint Lists | Database |
-| SharePoint Document Libraries | For hosting |
+| SharePoint Document Libraries | For serving pages and hosting assets |
 | SharePoint REST API | For programmatic access to data |
 | SharePoint Permissions | For access control |
 | RavenPoint (external) | SharePoint REST API emulator (For development only) |
