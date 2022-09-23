@@ -19,7 +19,7 @@ Based on the readings below.
 |  2  | Input Validation | Tell the user what is wrong as part of post-validation. |  |
 |  3  | Input Validation | If you must accept URLs from the user, validate it using the HTTP or HTTPS protocols. |  |
 |  4  | Output Encoding | Avoid `dangerouslySetInnerHTML` as far as possible. If you must use it, sanitise the inputs using `dompurify` first. |  |
-|  5  | Output Encoding | Use default data binding (`{}`) instead of rendering or using user-supplied attributes directly in . |  |
+|  5  | Output Encoding | Use default data binding (`{}`) instead of rendering or using user-supplied attributes directly in HTML tags with injectable attributes. |  |
 |  6  | Access Control | Assign the minimum SharePoint permissions for users to perform their tasks. |  |
 |  7  | Data Protection | Remove sensitive data from SharePoint once no longer required. |  |
 |  8  | System Configuration | Manage and record all changes to the source code via GitHub. |  |
