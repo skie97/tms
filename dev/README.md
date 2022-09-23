@@ -54,6 +54,23 @@ erDiagram
 | react-icons | Icons |
 | craco | Custom build to single bundle |
 
+## Checklist for React
+
+| S/N | Category | Item | Check |
+| :-: | :------- | :--- | :---- |
+|  1  | Input Validation | Use [Validator.js](https://github.com/validatorjs/validator.js) to validate all form inputs. |  |
+|  2  | Input Validation | Tell the user what is wrong as part of post-validation. |  |
+|  3  | Input Validation | If you must accept URLs from the user, validate it using the HTTP or HTTPS protocols. |  |
+|  4  | Output Encoding | Avoid `dangerouslySetInnerHTML` as far as possible. If you must use it, sanitise the inputs using `dompurify` first. |  |
+|  5  | Output Encoding | Use default data binding (`{}`) instead of rendering or using user-supplied attributes directly in . |  |
+|  6  | Access Control | Assign the minimum SharePoint permissions for users to perform their tasks. |  |
+|  7  | Data Protection | Remove sensitive data from SharePoint once no longer required. |  |
+|  8  | System Configuration | Manage and record all changes to the source code via GitHub. |  |
+|  9  | File Management | If files must be uploaded, (1) validate them and (2) store them in a Document Library separate from the app's document library. |  |
+| 10  | General Coding Practices | Limit the developer team (GitHub collaborators) to approved developers only. |  |
+| 11  | General Coding Practices | Use Snyk.io to scan the repo for vulnerabilities. |  |
+| 12  | General Coding Practices | Use SonarLint for code smells. |  |
+
 ## Architecture
 The `src` directory is set up to mimic the component dependency tree as closely as possible. Top-level components are in folders in TitleCase, while folders for all other supporting elements are in lowercase.
 

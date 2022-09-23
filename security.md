@@ -4,11 +4,30 @@ DevSecOps for Stack 2.0 takes reference from the following:
 1. Open Web Application Security Project (OWASP) [Secure Coding Practices Checklist](https://owasp.org/www-pdf-archive/OWASP_SCP_Quick_Reference_Guide_v2.pdf)
 2. Rules for finding [JavaScript](https://rules.sonarsource.com/javascript) / [TypeScript](https://rules.sonarsource.com/typescript) vulnerabilities, bugs, security hotspots, or code smells
 3. Testing: [Web Security Testing Guide](https://github.com/OWASP/wstg/)
+4. Snyk.io scanning
 
 Tools to incorporate (WIP):
 
-1. Snyk.io
-2. Jest
+1. Jest
+
+## Checklist for React
+Based on the readings below.
+
+| S/N | Category | Item | Check |
+| :-: | :------- | :--- | :---- |
+|  1  | Input Validation | Use [Validator.js](https://github.com/validatorjs/validator.js) to validate all form inputs. |  |
+|  2  | Input Validation | Tell the user what is wrong as part of post-validation. |  |
+|  3  | Input Validation | If you must accept URLs from the user, validate it using the HTTP or HTTPS protocols. |  |
+|  4  | Output Encoding | Avoid `dangerouslySetInnerHTML` as far as possible. If you must use it, sanitise the inputs using `dompurify` first. |  |
+|  5  | Output Encoding | Use default data binding (`{}`) instead of rendering or using user-supplied attributes directly in . |  |
+|  6  | Access Control | Assign the minimum SharePoint permissions for users to perform their tasks. |  |
+|  7  | Data Protection | Remove sensitive data from SharePoint once no longer required. |  |
+|  8  | System Configuration | Manage and record all changes to the source code via GitHub. |  |
+|  9  | File Management | If files must be uploaded, (1) validate them and (2) store them in a Document Library separate from the app's document library. |  |
+| 10  | General Coding Practices | Limit the developer team (GitHub collaborators) to approved developers only. |  |
+| 11  | General Coding Practices | Use Snyk.io to scan the repo for vulnerabilities. |  |
+| 12  | General Coding Practices | Use SonarLint for code smells. |  |
+
 
 ## Education
 Selected Youtube videos for education on security matters:
@@ -18,7 +37,15 @@ Selected Youtube videos for education on security matters:
 3. [DevSecOps Course for Beginners](https://www.youtube.com/watch?v=F5KJVuii0Yw)
 4. [OWASP Top 10 (Security Risks and Vulnerabilities)](https://www.youtube.com/watch?v=7UG8wE58vU8)
 
-## JavaScript Secure Coding Practices (JS-SCP) Guide by Checkmarx Security
+Readings:
+
+1. [10 React Security Best Practices](https://snyk.io/blog/10-react-security-best-practices/)
+2. [ReactJS Security Best Practices](https://aglowiditsolutions.com/blog/reactjs-security-best-practices/) by AGLOWID
+3. [JavaScript Secure Coding Practices (JS-SCP) guide](https://checkmarx.gitbooks.io/js-scp/content/) by Checkmarx Security
+
+
+
+## Notes on JavaScript Secure Coding Practices (JS-SCP) Guide by Checkmarx Security
 The [JS-SCP guide](https://checkmarx.gitbooks.io/js-scp/content/) from Checkmarx Security contextualises the OWASP Secure Coding Practices Checklist to JavaScript. The notes below provide some context for Stack 2.0 DevSecOps:
 
 1. Input Validation:
@@ -34,7 +61,7 @@ The [JS-SCP guide](https://checkmarx.gitbooks.io/js-scp/content/) from Checkmarx
       - Never use user-supplied `href` attributes, or other HTML tags with injectable attributes (link tag, HTML5 imports)
 3. Databases:
     - Main threat: SQL and NoSQL injection
-    - Both are nothing actionable in Stack 2.0 DevSecOps
+    - Both are not actionable in Stack 2.0 DevSecOps
 4. Authentication and Password Management: Managed by SharePoint; nothing actionable in Stack 2.0 DevSecOps
 5. Session Management: Done primarily on the backend; nothing actionable in Stack 2.0 DevSecOps
 6. Access Control: Managed by SharePoint; nothing actionable in Stack 2.0 DevSecOps

@@ -60,6 +60,13 @@ See the diagram below for the project structure for a standard Stack 2.0 project
 └── README.md                        # Project README
 ```
 
+## Security
+Stack 2.0 takes reference from the following:
+
+1. Open Web Application Security Project (OWASP) [Secure Coding Practices Checklist](https://owasp.org/www-pdf-archive/OWASP_SCP_Quick_Reference_Guide_v2.pdf)
+2. Rules for finding [JavaScript](https://rules.sonarsource.com/javascript) / [TypeScript](https://rules.sonarsource.com/typescript) vulnerabilities, bugs, security hotspots, or code smells
+3. Testing: [Web Security Testing Guide](https://github.com/OWASP/wstg/)
+4. Snyk.io scanning
 
 ## Notes
 #### Why TypeScript Over JavaScript?
