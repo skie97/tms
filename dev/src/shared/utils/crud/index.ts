@@ -3,12 +3,12 @@ import { config } from '../../../config';
 
 // Construct a SharePoint REST API endpoint URI
 export function constructUrl(
-  listId: string,
+  listTitle: string,
   selectStr: string,
   expandStr?: string,
   filterStr?: string
 ) {
-  return `${config.apiUrl}web/Lists(guid'${listId}')/items?` + 
+  return `${config.apiUrl}web/Lists/GetByTitle('${listTitle}')/items?` + 
     `$select=${selectStr}` +
     `${expandStr ? '&$expand=' + expandStr : ''}` +
     `${filterStr ? '&$filter=' + filterStr : ''}` +
@@ -29,12 +29,12 @@ export function constructReadQueryFn(url: string) {
 
 // Create query
 export async function createQuery(
-  listId: string,
+  listTitle: string,
   data: any,  // Input your data schema interface(s) here
   token: string,
   callback?: Function | null
 ) {
-  const url = `${config.apiUrl}web/Lists(guid'${listId}')/items`
+  const url = `${config.apiUrl}web/Lists/GetByTitle('${listTitle}')/items`
   try {
     await axios.post(url, data, {
       headers: {
@@ -51,13 +51,13 @@ export async function createQuery(
 
 // Update query - must refer to List item URL and include object containing item + metadata
 export async function updateQuery(
-  listId: string,
+  listTitle: string,
   itemId: number | undefined,
   data: any,  // Input your data schema interface(s) here
   token: string,
   callback?: Function | null
 ) {
-  const url = `${config.apiUrl}web/Lists(guid'${listId}')/items(${itemId})`
+  const url = `${config.apiUrl}web/Lists/GetByTitle('${listTitle}')/items(${itemId})`
   try {
     await axios.post(url, data, {
       headers: {
@@ -77,12 +77,12 @@ export async function updateQuery(
 
 // Delete query - must refer to List item URL
 export async function deleteQuery(
-  listId: string,
+  listTitle: string,
   itemId: number,
   token: string,
   callback?: Function | null
 ) {
-  const url = `${config.apiUrl}web/Lists(guid'${listId}')/items(${itemId})`
+  const url = `${config.apiUrl}web/Lists/GetByTitle('${listTitle}')/items(${itemId})`
   try {
     await axios.post(url, undefined, {
       headers: {
