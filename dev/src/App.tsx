@@ -1,7 +1,7 @@
 import { QueryClient, QueryClientProvider } from 'react-query';
-import { HashRouter, Routes, Route } from 'react-router-dom';
-import Home from './Home';
+import { HashRouter } from 'react-router-dom';
 import './App.css';
+import ClippedDrawer from './components/ClippedDrawer';
 
 // Create client
 const queryClient = new QueryClient();
@@ -10,9 +10,7 @@ function App() {
   return (
     <HashRouter>
       <QueryClientProvider client={queryClient}>
-        <Routes>
-          <Route path='/' element={<Home />} />
-        </Routes>
+        <ClippedDrawer/>
       </QueryClientProvider>
     </HashRouter>
   );
